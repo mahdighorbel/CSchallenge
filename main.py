@@ -22,7 +22,7 @@ def detect_crater(img):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    image_path = 'Demo_Images/mars_craters.jpg'
+    image_path = 'enter_image_path'
     image = Image.open(image_path)
     image.show()
     results = detect_crater(image)
